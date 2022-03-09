@@ -31,7 +31,7 @@ export default function Home({ propertiesForSale, propertiesForRent }) {
         desc2="and more"
         buttonText="Explore Renting"
         linkName="/search?purpose=for-rent"
-        imageUrl="https://bayut-production.s3.eu-central-1.amazonaws.com/image/145426814/33973352624c48628e41f2ec460faba4"
+        imageUrl="https://cdn.houseplansservices.com/product/8jvqe9cgn9dr1nfdufrfq415fv/w800x533.JPG?v=13"
        />
       <Flex flexWrap="wrap">
         {propertiesForRent.map((property) => <Property property={property} key={property.id} />)}
@@ -44,7 +44,7 @@ export default function Home({ propertiesForSale, propertiesForRent }) {
         desc2="and more"
         buttonText="Explore Buying"
         linkName="/search?purpose=for-sale"
-        imageUrl="https://bayut-production.s3.eu-central-1.amazonaws.com/image/110993385/6a070e8e1bae4f7d8c1429bc303d2008"
+        imageUrl="https://cdn.houseplansservices.com/product/82nsehr1aikhnuqlcuivmjevjm/w800x533.JPG?v=12"
       />
         <Flex flexWrap="wrap">
           {propertiesForSale.map((property) => <Property property={property} key={property.id} />)}
